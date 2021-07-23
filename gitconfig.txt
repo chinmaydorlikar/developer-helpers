@@ -1,0 +1,8 @@
+[user]
+	name = Chinmay Dorlikar
+	email = chinmay1512d@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status

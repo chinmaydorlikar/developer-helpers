@@ -1,0 +1,18 @@
+#Create an alias for any command
+alias myip='curl ipinfo.io/ip'
+
+
+#Check the arch kind
+dpkg --print-architecture
+
+#Create user vivek
+sudo useradd -s /bin/bash -d /home/vivek/ -m -G sudo vivek
+
+#Show free disk space
+df
+
+#Loop over all lines in a file and do something
+while IFS= read -r line; do echo "Text read from file: $line"; done < myfile.txt
+
+#Get exit code of last command
+echo $?
